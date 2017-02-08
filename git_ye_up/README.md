@@ -2,6 +2,10 @@
 
 a.k.a Gitting Stuff Done
 
+a.k.a. Git It Together
+
+a.k.a. Gitting By
+
 ---
 
 ## Programmers
