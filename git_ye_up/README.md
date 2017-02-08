@@ -131,17 +131,11 @@ Show 'em!
 
 ## GitHub Features
 
-- Issues
 - [Markdown](https://guides.github.com/features/mastering-markdown/)
-- Wiki
-- Pull Requests
-- Great visualization tools
-
----
-
-## GitHub Makes the Diff(erence)
-
-- Show 'em
+- [Issues](https://github.com/outcomesinsights/jigsaw-diagram-editor/issues)
+- [Wiki](https://github.com/outcomesinsights/jigsaw-diagram-editor/wiki/Interface-Icons)
+- [Pull Requests](https://github.com/outcomesinsights/jigsaw-diagram-editor/pull/83)
+- [Great visualization tools](https://github.com/outcomesinsights/generalized_data_model/commit/4830b68d32b850ba18ec875652046b6de140f5b2?short_path=04c6e90#diff-04c6e90faac2675aa89e2176d2eec7d8)
 
 ---
 
@@ -223,7 +217,7 @@ Show 'em!
 
 ---
 
-## Our Repos
+## A Few Our Repos
 
 - [Jigsaw](https://github.com/outcomesinsights/jigsaw-diagram-editor)
 - [ConceptQL Spec](https://github.com/outcomesinsights/conceptql_spec)
