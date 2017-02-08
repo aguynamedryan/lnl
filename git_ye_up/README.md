@@ -4,9 +4,7 @@ a.k.a Gitting Stuff Done
 
 ---
 
-## A Brief Summary of Programmers
-
-Programmers:
+## Programmers
 
 - Spend lots of time generating text files (source files) that are full of meticulously crafted magic words (code) in order to get computers to do things (programs).
 - Cry when they lose these files.
@@ -16,9 +14,7 @@ Programmers:
 
 ---
 
-## A Programmer's Summary of Researchers
-
-Researchers:
+## A Programmer's Take on Researchers
 
 - Spend lots of time generating text files (manuscripts) that are full of meticulously crafted magic words (methods) in order to get journals to do things (publish).
 - Cry when they lose these files.
@@ -33,7 +29,10 @@ Researchers:
 - Programmers often use SCM (Source Code Management) software to address the aforementioned needs
 - Sometimes also called Version (or Revision) Control Software
 
-SCM software generally:
+---
+
+## What SCM Software Does
+
 - Tracks changes to software files over time
 - Maintains a historical record of what happened to source code
 - Permits developers to hop back in time to previous versions of source code
@@ -42,22 +41,31 @@ SCM software generally:
 
 ---
 
-## How SCM Generally Works
+## SCMs Are About Commitment
 
 - As a programmer makes changes to files, the programmer will occasionally take a snapshot of all the source code files
-    - This is called a "commit" or "revision"
-    - Commits normally include information about the snapshot, such as
-      - Who made it (the author)
-      - When it was made (timestamp)
-      - A brief message recording why the snapshot was made e.g. what bug was fixed or feature was introduced
-    - Only the _changes_ to each file are saved in a commit
-- All commits are kept in a single location, called a "repository"
-- The repository serves as a backup of the source code and a journal of all the changes to the source code
-- Programmers can share commits with a repository, thereby enabling them to collaborate on the same source code
+- This is called a "commit" or "revision"
 
 ---
 
-## What Commits Look Like
+## Contents of a Commit
+- Commits normally include information about the snapshot, such as
+  - Who made it (the author)
+  - When it was made (timestamp)
+  - A brief message recording why the snapshot was made e.g. what bug was fixed or feature was introduced
+- Only the _changes_ to each file are saved in a commit
+
+---
+
+## Revisionist History
+
+- All commits are kept in a single location, called a "repository"
+- The repository serves as a backup of the source code and a journal of all the changes to the source code
+- Programmers can share commits between copies of the same repository, thereby enabling them to collaborate on the same source code
+
+---
+
+## A Commit in the Wild
 
 Show 'em!
 
@@ -73,8 +81,7 @@ Show 'em!
 
 - CVS
     - Was once the workhorse of the Unix world
-- SVN
-    - Subversion
+- Subversion (SVN)
     - Replacement for CVS
 - Git
     - More on this later
@@ -87,50 +94,131 @@ Show 'em!
 
 ## A (Very) Brief History of Git
 
-- 2005, BitKeeper sells out, needs replacement
-- Created by Linus Torvalds (creator of Linux)
-- Needed a way to coordinate development of the Linux Kernel
-    - Hundreds of developers
-    - Thousands of patches
-    - Maintain safeguards against tampering
-    - Be fast
-        - At the time kernel files were, 233MB and 11 MLoC
-        - Now at 765M and 22 MLoC
-        - As of 2015, 7.75 commits per hour, or 10,000 commits per new kernel version
+- 1998, Linux kernel starts using BitKeeper
+- March 2005, member of Linux community irritates BitMover and licences are revoked
+- April 2005, Linux Torvalds, creator of Linux, starts writing Git
+- Three weeks later, Git is self-hosting
 
 ---
 
-## Distributed SCM to the Rescue
+## Git Goals
 
+- Primary use case was to host and coordinate development of the code of the Linux kernel
+    - Thousands of developers
+    - Tens of thousands of patches
+- Maintain safeguards against tampering
+- Be fast
+    - At the time kernel files were, 233MB and 11 MLoC
+    - Now at 765M and 22 MLoC
+    - As of 2015, 7.75 commits per hour, or 10,000 commits per new kernel version
 
+---
 
-## [Git](https://git-scm.com/)
+## Git is Distributed
 
-- Snapshots
-- History
-- Staging
-- Diff
-- Branches
-- Merge
-- Rebase
+- Means you can do some fancy things with Git
+- But for our purposes, just know that you have a complete copy of the repository on your computer
+    - As opposed to having some repository remotely hosted
 
-## [GitHub](http://github.com)
+---
 
-- Website to host Git repos
-- Provides additional features surrounding repo
-    - Issues
-        - Labels
-        - Milestones
-    - Wiki
-    - GHFMarkdown
-    - "Social" aspects
-        - Stars
-        - Watching
-        - Forking
-    - Pull Requests
-- Why GitHub all the things?
-    - Offsite backup
-    - Markdown!
-    - Visual diffs
-    - No more "v2RSD"
+## GitHub - Coordinating Code
 
+- Hosts Git repositories
+- Provides a set of additional features to aid in software development
+
+---
+
+## GitHub Features
+
+- Issues
+- Markdown
+- Wiki
+- Pull Requests
+- Great visualization tools
+
+---
+
+## GitHub Makes the Diff(erence)
+
+- Show 'em
+
+---
+
+## How to Use Git
+
+- Command line
+- GUI
+    - https://git-scm.com/download/gui/linux
+- Built into your text editor/IDE of choice
+
+---
+
+## Plain Text is Best
+
+- Git loves plain text files
+- Tons of great plain text editors
+- Markdown is super-great for 90% of the documentation you write
+
+---
+
+## Plain Text Editors
+
+- [vim](http://www.vim.org/)
+- [Sublime Text](https://www.sublimetext.com/)
+- [Brackets](http://brackets.io/)
+- [Atom](https://atom.io/)
+
+---
+
+## Turn a Folder into a Repo
+
+- `git init`
+
+---
+
+## Take a Snapshot
+
+1. Make changes to files
+2. `git add .`
+3. `git commit --message 'Things are changing around here'`
+
+---
+
+## Relive the Past
+
+- You can view a list of previous commits
+    - `git log`
+    - `git log -p`
+- Or view details about a commit
+    - `git show`
+
+---
+
+## Time Travel
+
+- You can checkout a previous version of a file
+- `git checkout <sha> -- some_file.md`
+
+---
+
+## Trash the Place
+
+- You can reset your working directory to the last saved snapshot
+- `git reset --hard`
+
+---
+
+## Copy Off a Friend
+
+- To pull down a copy of a repo onto your computer
+- `git clone <url>`
+
+---
+
+## Push Ups
+
+- To share commits back up to GitHub
+- `git push origin master`
+
+---
