@@ -1,9 +1,9 @@
-- [] Show them [fixes](https://github.com/aguynamedryan/fixes)
-- [] Show them [manuals](https://github.com/outcomesinsights/manuals)
-- [] Create a repo
-- [] Create an issue
-- [] Update the README
-- [] Close issue
-- [] Clone repo
-- [] Update README
-- [] Push changes
+- [ ] Show them [fixes](https://github.com/aguynamedryan/fixes)
+- [ ] Show them [manuals](https://github.com/outcomesinsights/manuals)
+- [ ] Create a repo
+- [ ] Create an issue
+- [ ] Update the README
+- [ ] Close issue
+- [ ] Clone repo
+- [ ] Update README
+- [ ] Push changes
