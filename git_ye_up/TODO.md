@@ -7,3 +7,6 @@
 - [ ] Clone repo
 - [ ] Update README
 - [ ] Push changes
+- [ ] Create pull request
+- [ ] Comment on the README
+- [ ] Deep link to a specific line in a file
