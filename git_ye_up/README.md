@@ -132,7 +132,7 @@ Show 'em!
 ## GitHub Features
 
 - Issues
-- Markdown
+- [Markdown](https://guides.github.com/features/mastering-markdown/)
 - Wiki
 - Pull Requests
 - Great visualization tools
@@ -158,7 +158,7 @@ Show 'em!
 
 - Git loves plain text files
 - Tons of great plain text editors
-- Markdown is super-great for 90% of the documentation you write
+- [Markdown](https://guides.github.com/features/mastering-markdown/) is super-great for 90% of the documentation you write
 
 ---
 
