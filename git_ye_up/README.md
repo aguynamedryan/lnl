@@ -222,3 +222,30 @@ Show 'em!
 - `git push origin master`
 
 ---
+
+## Our Repos
+
+- [Jigsaw](https://github.com/outcomesinsights/jigsaw-diagram-editor)
+- [ConceptQL Spec](https://github.com/outcomesinsights/conceptql_spec)
+- [Jigsaw Manuals](https://github.com/outcomesinsights/manuals)
+- [List of Repos](https://github.com/outcomesinsights)
+
+---
+
+## Cool Uses of GitHub
+
+- [Write a Book](https://github.com/progit/progit2)
+- [Make a Blog](https://pages.github.com/)
+- [Keep a List](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+- [Track Recipes](https://github.com/rikai/OpenYourMouth)
+- [Honey Do List](https://github.com/frabcus/house/labels/building)
+- [Remember How You Solved It](https://github.com/aguynamedryan/fixes)
+- [Laws](https://github.com/bundestag/gesetze)
+- [Map Things](https://github.com/blog/1528-there-s-a-map-for-that)
+- [3D Models](https://github.com/blog/1465-stl-file-viewing)
+
+---
+
+## Questions?
+
+---
