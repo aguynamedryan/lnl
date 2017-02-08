@@ -6,21 +6,21 @@ a.k.a Gitting Stuff Done
 
 ## Programmers
 
-- Spend lots of time generating text files (source files) that are full of meticulously crafted magic words (code) in order to get computers to do things (programs).
-- Cry when they lose these files.
-- Get upset when they change these files and computers suddenly stop doing things correctly.
-- Can't remember what they wrote 2 hours ago, let alone 2 months or years ago.
-- Often work together on the same files and need to make sure they don't break other programmers' code.
+- Spend lots of time generating text files (source files) that are full of meticulously crafted magic words (code) in order to get computers to do things (programs)
+- Cry when they lose these files
+- Get upset when they change these files and computers suddenly stop doing things correctly
+- Can't remember what they wrote 2 hours ago, let alone 2 months or years ago
+- Often work together on the same files and need to make sure they don't break other programmers' code
 
 ---
 
 ## A Programmer's Take on Researchers
 
-- Spend lots of time generating text files (manuscripts) that are full of meticulously crafted magic words (methods) in order to get journals to do things (publish).
-- Cry when they lose these files.
-- Get upset when people ask them to change small bits of these files.
-- Probably can't remember what they wrote 2 hours ago, let alone 2 months or years ago.
-- Often work together on the same files and need to be able to coordinate revisions and comments.
+- Spend lots of time generating text files (manuscripts) that are full of meticulously crafted magic words (methods) in order to get journals to do things (publish)
+- Cry when they lose these files
+- Get upset when people ask them to change small bits of these files
+- Probably can't remember what they wrote 2 hours ago, let alone 2 months or years ago
+- Often work together on the same files and need to be able to coordinate revisions and comments
 
 ---
 
