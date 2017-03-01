@@ -1,6 +1,6 @@
 # Git Ye Up!
 
-a.k.a Gitting Stuff Done
+a.k.a. Gitting Stuff Done
 
 a.k.a. Git It Together
 
