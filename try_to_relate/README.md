@@ -1,17 +1,48 @@
-- Relational Algebra
-- Not covering NoSQL
-- Popular RDBMSs
-    - Oracle
-    - MS SQL Server
-    - PostgreSQL
-    - MySQL
-    - SQLite
-- Table is like a sheet in Excel
-    - Database is like a workbook
+- Potential titles
+    - Try to Relate
+    - Trying to Relate
+    - Relating to your Data
+    - Relate Your Data
+    - RD RD RDBMS
+    - SQL Relations
+    - In Relation to Data
+- Why Databases?
+    - Efficient storage of data
+    - Fast retrieval of subsets of data
+    - Organization of data
+    - Standard way of retrieving data
+- Who uses databases
+    - Everyone
+    - Programmers
+    - Pretty much anything computerized
+- How databases
+    - Relational Algebra
+    - Table is like a sheet in Excel
+        - Database is like a workbook
+- What databases
+    - Not covering NoSQL
+    - Popular RDBMSs
+        - Oracle
+        - MS SQL Server
+        - PostgreSQL
+        - MySQL
+        - SQLite
+- When databases
+    - Graph of databases
+        - https://upload.wikimedia.org/wikipedia/commons/a/a2/RDBMS_timeline-2.svg
+- Where databases
+    - Linux
+    - Open Source
+
 - Loading in data
+    - Byte issues
+    - Format issues
+    - Structure issues
+    - ETL processes
 - Indexes
 - Aggregate functions
 - Joining Data
+- DDL
 - Efficient lookup of information
 - Query Planner
 - CTEs?
@@ -28,9 +59,6 @@
 - Buzzwords
     - OLAP
     - OLTP
-- Graph of databases
-- Who uses databases?
-    - EVERYONE
 - ORM
     - Rails' ActiveRecord
     - Sequel::Model
