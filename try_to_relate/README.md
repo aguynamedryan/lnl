@@ -31,4 +31,6 @@
 - Graph of databases
 - Who uses databases?
     - EVERYONE
-
+- ORM
+    - Rails' ActiveRecord
+    - Sequel::Model
