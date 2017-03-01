@@ -1,0 +1,34 @@
+- Relational Algebra
+- Not covering NoSQL
+- Popular RDBMSs
+    - Oracle
+    - MS SQL Server
+    - PostgreSQL
+    - MySQL
+    - SQLite
+- Table is like a sheet in Excel
+    - Database is like a workbook
+- Loading in data
+- Indexes
+- Aggregate functions
+- Joining Data
+- Efficient lookup of information
+- Query Planner
+- CTEs?
+- Keys
+    - Natural
+    - Surrogate
+    - Primary
+- Referential integrity
+- ACID compliance
+- Three normal forms
+- SQL
+    - The S doesn't stand for "standardized" ;-)
+- Reading an ER diagram
+- Buzzwords
+    - OLAP
+    - OLTP
+- Graph of databases
+- Who uses databases?
+    - EVERYONE
+
