@@ -3,10 +3,40 @@
 
 
 
-We'll be using the `condition_occurrence` table from the `synpuf_250` database
+We'll be using the `condition_occurrence` and `person` tables from the `synpuf_250` database
 to illustrate a few SQL basics
 
 #### Query 1.1
+
+
+
+```sql
+SELECT
+    *
+FROM
+    person;
+```
+
+Found 250 results.  Displaying first 10.
+
+| person_id | gender_concept_id | year_of_birth | month_of_birth | day_of_birth | race_concept_id | ethnicity_concept_id | location_id | provider_id | care_site_id | person_source_value | gender_source_value | race_source_value | ethnicity_source_value |
+| ---------------: | -------------------------: | ---------------------: | --------------------: | -----------------: | -----------------------: | -------------------------: | :------------------ | :------------------ | :------------------- | :----------------------------------------- | :------------------------------- | :------------------------------------------------ | :----------------------------- |
+| 1 | 8507 | 1,923 | 5 | 1 | 8527 | 0 |  |  |  | 00013D2EFD8E45D1 | MALE | White |  |
+| 2 | 8507 | 1,943 | 1 | 1 | 8527 | 0 |  |  |  | 00016F745862898F | MALE | White |  |
+| 3 | 8532 | 1,936 | 9 | 1 | 8527 | 0 |  |  |  | 0001FDD721E223DC | FEMALE | White |  |
+| 4 | 8507 | 1,941 | 6 | 1 | 8522 | 0 |  |  |  | 00021CA6FF03E670 | MALE | Other Race |  |
+| 5 | 8507 | 1,936 | 8 | 1 | 8527 | 0 |  |  |  | 00024B3D2352D2D0 | MALE | White |  |
+| 6 | 8507 | 1,943 | 10 | 1 | 8516 | 0 |  |  |  | 0002DAE1C81CC70D | MALE | Black or African American |  |
+| 7 | 8507 | 1,922 | 7 | 1 | 8527 | 0 |  |  |  | 0002F28CE057345B | MALE | White |  |
+| 8 | 8507 | 1,935 | 9 | 1 | 8527 | 0 |  |  |  | 000308435E3E5B76 | MALE | White |  |
+| 9 | 8532 | 1,976 | 9 | 1 | 8527 | 0 |  |  |  | 000345A39D4157C9 | FEMALE | White |  |
+| 10 | 8532 | 1,938 | 10 | 1 | 8516 | 0 |  |  |  | 00036A21B65B0206 | FEMALE | Black or African American |  |
+***
+
+
+
+
+#### Query 1.2
 
 
 

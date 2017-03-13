@@ -281,6 +281,17 @@ However ORM is not a panacea and many OO programmers opted to find (or invent) o
 
 # Data Integrity
 
+- Checking accounts are often stored in a database
+- If you transfer money from Alice account to Bob, you must decrement Alice's account, then increment Bob's
+- What happens if something fails after Alice's account is withdrawn, but before Bob's is deposited
+- What happens if Alice initiates a second withdrawal at the same time?
+
+Databases use constraints and transactions to handle these kinds of issues
+
+---
+
+# Why ACID Is Important
+
 Mostly covered by ACID compliance
 
 - Atomic
